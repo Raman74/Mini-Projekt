@@ -10,6 +10,12 @@ public class Auto {
         kennzeichen = pKennzeichen;
     }
 
+    public String toString(){
+        String fahrzeugTyp = this.getClass().getName();
+        return fahrzeugTyp + ": Kennzeichen " + kennzeichen + ", Marke: " + marke + ", Farbe: " + farbe;
+    }
+    
+
 
     
 }
