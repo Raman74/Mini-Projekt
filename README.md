@@ -10,4 +10,4 @@ class Auto{
     +kennzeichen: String
 }
 
-ProgrammStart -- Auto
+ProgrammStart "1--> "1..100" Auto: Stellüätze
